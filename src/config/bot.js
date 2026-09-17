@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
+        name: " ", // required by Discord API, not shown in the client
         state: "just in time",     // this is what people actually see
-        type: 2,               // Custom
+        type: 4,               // Custom
       },
     ],
   },
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Honninnko's Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
